@@ -1,0 +1,5 @@
+# Replace paths locally and merge into your existing config.
+[mcp_servers.hpc_workspace]
+command = "C:/YOUR_PYTHON/python.exe"
+args = ["-E", "-s", "C:/hpc-workspace-proxy/client_mcp.py", "--config", "D:/hpc-private/client.local.json", "--mcp"]
+enabled_tools = ["list_directory", "search_files", "read_file", "create_file"]
